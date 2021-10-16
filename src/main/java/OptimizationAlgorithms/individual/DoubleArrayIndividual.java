@@ -1,6 +1,6 @@
 package OptimizationAlgorithms.individual;
 
-import OptimizationAlgorithms.ErrorFunction.IFunction;
+import OptimizationAlgorithms.errorFunction.IFunction;
 
 import java.util.Arrays;
 import java.util.Objects;

@@ -1,7 +1,7 @@
 package OptimizationAlgorithms;
 
-import OptimizationAlgorithms.ErrorFunction.GenAlgSinLossFunction;
-import OptimizationAlgorithms.ErrorFunction.IFunction;
+import OptimizationAlgorithms.errorFunction.GenAlgSinLossFunction;
+import OptimizationAlgorithms.errorFunction.IFunction;
 import OptimizationAlgorithms.crossover.Crossover;
 import OptimizationAlgorithms.crossover.SinglePointDoubleArrayCrossover;
 import OptimizationAlgorithms.geneticAlgorithm.GenerationalGeneticAlgorithm;
@@ -11,12 +11,11 @@ import OptimizationAlgorithms.individual.Individual;
 import OptimizationAlgorithms.individual.Population;
 import OptimizationAlgorithms.mutation.Mutation;
 import OptimizationAlgorithms.mutation.NormalDistMutation;
+import OptimizationAlgorithms.nn.NeuralNetwork;
+import OptimizationAlgorithms.nn.aFunction.AFunction;
+import OptimizationAlgorithms.nn.aFunction.SigmoidFunction;
 import OptimizationAlgorithms.selection.Selection;
 import OptimizationAlgorithms.selection.TournamentSelection;
-import neuralNetwork.NeuralNetwork;
-import neuralNetwork.aFunction.AFunction;
-import neuralNetwork.aFunction.SigmoidFunction;
-
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;

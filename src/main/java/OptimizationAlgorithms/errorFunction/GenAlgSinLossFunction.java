@@ -1,6 +1,6 @@
-package OptimizationAlgorithms.ErrorFunction;
+package OptimizationAlgorithms.errorFunction;
 
-import neuralNetwork.NeuralNetwork;
+import OptimizationAlgorithms.nn.NeuralNetwork;
 
 import java.util.Map;
 import java.util.Objects;
